@@ -1,0 +1,32 @@
+/* DIV and SPAN - used for grouping */
+/* DIV - to group multiple elements  */
+/* SPAN - to group inline content */
+/* DIV is block level*/
+/*SPAN is inline element*/
+
+.red
+{
+    color: red;
+    background: black;
+}
+
+.span
+{
+    color: green;
+    /* display: block; */
+    /* float: left; */
+    background: yellow;
+}
+
+.grey
+{
+    color: gray;
+    background-color: red;
+}
+
+.text
+{
+    text-transform: uppercase;
+    background: green;
+}
+

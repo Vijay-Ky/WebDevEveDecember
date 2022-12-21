@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Priorites</title>
+    <!-- external css is third priority -->
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <!-- internal css is second priority -->
+    <style>
+        h1
+        {
+            color: gold;
+            font-size: 50px;
+        }
+
+        h2
+        {
+            color: chocolate;
+            font-size: 8px;
+        }
+    </style>
+</head>
+<body>
+    <!-- inline css is the first priorty -->
+    <h1 style="color:brown">Hello World</h1>
+    <h1>Hello World</h1>
+    <h1>Hello World</h1>
+    <h2>Welcome</h2>
+    <h2>Welcome</h2>
+    <h2>Welcome</h2>
+</body>
+</html>

@@ -1,0 +1,29 @@
+/* ID selector given the priority over class selector */
+#title
+{
+    font-size: 50px;
+    color: green;
+}
+
+.green_uppercase
+{
+    text-transform: uppercase;
+    color: rebeccapurple;
+}
+
+.green
+{
+    color: green;
+}
+
+.red_uppercase
+{
+    color: red;
+    text-transform: uppercase;
+}
+
+.red
+{
+    color: red;
+}
+

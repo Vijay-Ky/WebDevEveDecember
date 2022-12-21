@@ -1,0 +1,18 @@
+h1
+{
+    color: green;
+    font-size: 25px;
+}
+h2
+{
+    color: red;
+    font-size: 50px;
+}
+
+/*
+1. css rule: inline,internal,external
+2. selector: ex h1,p,img
+3. declaration block: {}
+4. declarations: property : value; property: value;
+*/
+
